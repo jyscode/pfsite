@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="김지용 Cloud / MSP Engineer Portfolio" />
+  <meta name="theme-color" content="#0b0d10" />
+  <title>김지용 | Cloud / MSP Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top">JY.</a>
+      <nav aria-label="주요 메뉴">
+        <a href="#career">Career</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="https://github.com/jyscode/" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="eyebrow">Cloud Infrastructure · MSP · Automation</div>
+      <h1>김지용<br><span>Cloud / MSP Engineer</span></h1>
+      <p class="lead">Cloud MSP 엔지니어로 고객사의 서버·네트워크·보안 인프라 운영과 Kubernetes 환경 구축, ISMS 대응 등의 업무를 수행해왔습니다. 반복되는 점검과 운영 업무를 줄이기 위해 Ansible 기반 서버 설정 자동화를 도입했으며, 효율적이고 일관된 운영 환경을 만드는 데 관심이 있습니다.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#career">경력 보기</a>
+        <a class="button" href="https://github.com/jyscode/" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+      <div class="skill-row" aria-label="핵심 기술">
+        <span>NAVER Cloud</span><span>Kubernetes</span><span>Linux</span><span>Network</span><span>Ansible</span><span>Python</span>
+      </div>
+    </section>
+
+    <section id="career" class="section wrap">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">01 · Career</p>
+          <h2>경력</h2>
+        </div>
+        <p>고객 환경의 운영과 장애 대응부터 보안 심사, 자동화까지 실제 MSP 업무를 중심으로 경험했습니다.</p>
+      </div>
+
+      <article class="career-card">
+        <div class="career-top">
+          <div>
+            <h3>클라우드스퀘어</h3>
+            <p>Cloud / MSP Engineer</p>
+          </div>
+          <span class="period">2025.04 — Present</span>
+        </div>
+        <div class="two-col">
+          <div>
+            <h4>주요 업무</h4>
+            <ul>
+              <li>NAVER Cloud 기반 고객 인프라 구축 및 운영</li>
+              <li>Server / VPC / Load Balancer / NAT Gateway / VPN 등 Cloud Resource 관리</li>
+              <li>Linux / Windows Server 운영 및 Migration</li>
+              <li>WAF / Firewall / ACL 등 보안 정책 운영</li>
+              <li>Kubernetes 환경 구축 및 Network Troubleshooting</li>
+              <li>ISMS·CSAP 대응 및 Cloud 운영 자동화</li>
+            </ul>
+          </div>
+          <div>
+            <h4>주요 고객사 수행 경험</h4>
+            <div class="client-list">
+              <div><strong>국내 식품 제조사</strong><span>ISMS 대응 · Ansible 자동화 · OS Migration · Jenkins 백업</span></div>
+              <div><strong>대형 교육기관</strong><span>Live Streaming · ISMS · DRM/CDN 테스트 · Traffic Monitoring</span></div>
+              <div><strong>국내 대학교</strong><span>정보시스템/홈페이지 인프라 · LB/NAS · DR/Backup 운영</span></div>
+              <div><strong>국내 펫보험사</strong><span>금융 인프라 · 전용선/VPN · Routing · Kubernetes DR</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="experience" class="section wrap">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">02 · Selected Experience</p>
+          <h2>대표 기술 경험</h2>
+        </div>
+        <p>업무에서 직접 적용하거나 구축한 경험 중, 문제 해결 방식과 자동화 역량을 잘 보여주는 사례만 추렸습니다.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-no">01</div>
+          <h3>ISMS 대응 업무 자동화</h3>
+          <p>반복되는 Linux 보안 점검과 설정 작업을 Ansible Playbook으로 구성해 다수 서버에 동일한 기준으로 적용했습니다.</p>
+          <ul>
+            <li>Linux 보안 설정 및 계정·권한 점검</li>
+            <li>SSH 및 주요 서비스 설정 자동화</li>
+            <li>다수 서버 대상 일괄 적용 및 결과 확인</li>
+          </ul>
+          <div class="tags"><span>Ansible</span><span>Linux</span><span>ISMS</span><span>Automation</span></div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-no">02</div>
+          <h3>Kubernetes 기반 DR 환경 구축</h3>
+          <p>금융 서비스의 연속성을 위해 서로 다른 Zone에 Kubernetes Cluster를 구성하고 Istio 기반 Multi-Cluster DR 구조를 구축했습니다.</p>
+          <ul>
+            <li>전용선 / VPN / Routing 연계 구성</li>
+            <li>서비스 Network Flow 및 전환 시나리오 검토</li>
+            <li>DR 전환을 고려한 Network Architecture 구성</li>
+          </ul>
+          <div class="tags"><span>Kubernetes</span><span>Istio</span><span>DR</span><span>Network</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-no">03</div>
+          <h3>Cloud Billing 업무 자동화</h3>
+          <p>NAVER Cloud Billing API 데이터를 Python으로 수집하고 MySQL에 저장해 Flask 화면에서 고객사별 비용을 조회하도록 구성했습니다.</p>
+          <ul>
+            <li>API 요청·응답 테스트 및 문서화</li>
+            <li>Account별 비용 데이터 자동 수집</li>
+            <li>Cron 기반 정기 실행 및 Web 조회</li>
+          </ul>
+          <div class="tags"><span>Python</span><span>Flask</span><span>MySQL</span><span>API</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section wrap compact">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">03 · Background</p>
+          <h2>학력 · 자격</h2>
+        </div>
+      </div>
+      <div class="background-grid">
+        <article class="info-card">
+          <h3>Education</h3>
+          <div class="timeline-item"><span>2018.03 — 2024.02</span><strong>동양미래대학교</strong><p>컴퓨터소프트웨어공학</p></div>
+          <div class="timeline-item"><span>2015.03 — 2018.02</span><strong>선린인터넷고등학교</strong></div>
+        </article>
+        <article class="info-card">
+          <h3>Certifications</h3>
+          <div class="cert-list">
+            <div><span>2025.11</span><strong>CEA</strong><small>SCP Certified Cloud Engineer - Associate</small></div>
+            <div><span>2025.10</span><strong>NCE</strong><small>NAVER Cloud Platform Certified Expert</small></div>
+            <div><span>2025.10</span><strong>NCP-Security</strong></div>
+            <div><span>2024.10</span><strong>CKA</strong><small>Certified Kubernetes Administrator</small></div>
+            <div><span>2024.03</span><strong>CCNA</strong><small>Cisco Certified Network Associate</small></div>
+            <div><span>2021.12</span><strong>네트워크관리사 2급</strong></div>
+            <div><span>2018.10</span><strong>OCAJP</strong><small>Oracle Certified Associate Java SE 8 Programmer</small></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <div>
+      <strong>김지용 · Cloud / MSP Engineer</strong>
+      <p>MSP 운영의 자동화와 표준화에 관심이 있습니다.</p>
+    </div>
+    <a href="https://github.com/jyscode/" target="_blank" rel="noreferrer">github.com/jyscode ↗</a>
+  </footer>
+</body>
+</html>
